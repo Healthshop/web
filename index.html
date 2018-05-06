@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="icon" href="favicon.png">
 
     <title>Health Shop</title>
 
@@ -15,82 +15,145 @@
 
     <!-- Custom styles for this template -->
     <link href="css/jumbotron.css" rel="stylesheet">
+
+    <!--Font Awesome Free CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <h3 class="my-0 mr-md-auto font-weight-normal" style="color:rgb(21, 126, 251); font-family: 'Times New Roman', Times, serif;">HealthShop</h3>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="#">Features</a>
+          <a class="p-2 text-dark" href="#">Enterprise</a>
+          <a class="p-2 text-dark" href="#">Support</a>
+          <a class="p-2 text-dark" href="#">Pricing</a>
+        </nav>
+        <a class="btn btn-outline-primary" href="#">Sign up</a>
+    </div>
+
 
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div class="jumbotron" style="background-color:rgb(255, 255, 255);">
         <div class="container">
-          <h1 class="display-3">Hello, world!</h1>
-          <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <h1 class="display-3">Hello.</h1>
+          <p>Welcome to the pre-authorization request application for elective procedures. 
+            Please begin your pre-authorization request by searching for your condition or by uploading 
+            your las vist summary note from your physician.
+          </p>
+          <p>At the end of this process, you will have scheduled an informational sesstion to learn more
+            about your preferred care provider. We will be informed by your informational advisor that your 
+            session has completed. We will then complete the rest of the pre-authorization.
+          </p>
+          <p>Same-day informationals are available for urgent cases. In most situations, we can speak with you 
+            within a 48 to 72 hour timeframe.</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target=".bd-example-modal-lg">Learn more &raquo;</a></p>
+          <!-- Large modal -->
+          <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+
+                      <!-- Example row of columns -->
+                      <div class="row">
+                        <div class="col-md-4">
+                          <h2>Heading</h2>
+                          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <div class="col-md-4">
+                          <h2>Heading</h2>
+                          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+                          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                        <div class="col-md-4">
+                          <h2>Heading</h2>
+                          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                        </div>
+                      </div>
+              
+              
+
+              </div>
+            </div>
+          </div>
+          <!-- /Large modal -->
+
+
+          <div class="container">
+              <!-- Example row of columns -->
+              <div class="row">
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://via.placeholder.com/100x50" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Pre-authorization Process</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://via.placeholder.com/100x50" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Elective Procedures</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="http://via.placeholder.com/100x50" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Care Settings</h5>
+                          <p class="card-text">Ambulatory Surgery Centers vs Hospital-based Outpatient Surgery</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+              </div>            
+            </div> <!-- /container -->
+
+
+
         </div>
       </div>
+      
+      <!--Session 2-->
+      <div class="jumbotron jumbotron-fluid" style="background-color:rgb(254, 205, 47);">
+          <div class="container">
+            <h1 class="display-4">Get Started.</h1>
+            <p class="lead">What procedure are you interested? Type, speak or scan.</p>
+            <p>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control-lg mr-sm-2" style="width: 550px;" type="text" placeholder="Search" aria-label="Search">
 
-      <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
+                <input type="file" id="upload_input" style="display: none" name="upload_input"/>
+                <button class="btn btn-outline-primary btn-lg my-2 my-sm-0" id="upload_btn" >
+                    <i class="fas fa-upload"></i>
+                </button>
 
-        <hr>
+                <button class="btn btn-outline-primary btn-lg my-2 my-sm-0" style="margin-left:5px;" type="submit" onclick="uploadFile()">
+                    <i class="fas fa-microphone"></i>
+                </button>
 
-      </div> <!-- /container -->
+              </form>
+            </p>
+            <p><button type="button" class="btn btn-primary btn-lg">Search</button></p>
+          </div>
+      </div>
 
     </main>
 
     <footer class="container">
-      <p>&copy; Company 2017-2018</p>
+      <p>&copy; HealthShop 2018</p>
     </footer>
 
     <!-- Bootstrap core JavaScript
@@ -98,7 +161,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
